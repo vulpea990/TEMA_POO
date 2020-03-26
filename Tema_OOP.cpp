@@ -258,7 +258,8 @@ public:
      {
      adauga >> val;
 
-     if (val ==0) // introducerea valorii 0 inseamna ca am terminat de citit coada
+     if (val ==0) // 
+     
             return adauga;
 
         temporr.nod(temporr,val);
