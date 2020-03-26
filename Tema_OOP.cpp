@@ -211,21 +211,8 @@ public:
     }
 
   }
-  // 6th update nod
-  void update_nod(int k, int new_data)
-  {
-
-    nod * ptr = verify_nod(k);
-    if (ptr != NULL) {
-      ptr->data = new_data;
-      cout << "Node Data Updated Successfully" << endl;
-    } else {
-      cout << "Node Doesn't exist with key value : " << k << endl;
-    }
-
-  }
-
-  // 7 Afisarea listei
+  
+  // 6 Afisarea listei
   void print_list()
     {
         if(head == NULL)
